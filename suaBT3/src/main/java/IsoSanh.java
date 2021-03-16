@@ -8,14 +8,6 @@
  *
  * @author ASUS
  */
-public abstract class Context {
-
-    Tinh tinhToan;
-
-    public void setTinhToan(Tinh tinhToan) {
-        this.tinhToan = tinhToan;
-    }
-
-    public abstract float tinh();
-    
+public interface IsoSanh <T>{
+    int soSanh(T o1, T o2);
 }

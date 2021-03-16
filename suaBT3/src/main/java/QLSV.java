@@ -1,3 +1,7 @@
+
+import java.util.ArrayList;
+import java.util.List;
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -8,14 +12,13 @@
  *
  * @author ASUS
  */
-public abstract class Context {
+public class QLSV {
+    IsoSanh<SinhVien> soSanh;
+    List<SinhVien> list = new ArrayList();
 
-    Tinh tinhToan;
-
-    public void setTinhToan(Tinh tinhToan) {
-        this.tinhToan = tinhToan;
+    public QLSV() {
+        this.soSanh = soSanh;
     }
-
-    public abstract float tinh();
+    
     
 }

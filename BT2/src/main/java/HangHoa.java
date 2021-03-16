@@ -8,14 +8,16 @@
  *
  * @author ASUS
  */
-public abstract class Context {
+public class HangHoa {
 
-    Tinh tinhToan;
+    String tenHH;
+    int gia;
+    String moTa;
 
-    public void setTinhToan(Tinh tinhToan) {
-        this.tinhToan = tinhToan;
+    public HangHoa(String tenHH, int gia, String moTa) {
+        this.tenHH = tenHH;
+        this.gia = gia;
+        this.moTa = moTa;
     }
 
-    public abstract float tinh();
-    
 }

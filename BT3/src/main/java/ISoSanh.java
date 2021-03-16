@@ -6,16 +6,8 @@
 
 /**
  *
- * @author ASUS
+ * @author HP
  */
-public abstract class Context {
-
-    Tinh tinhToan;
-
-    public void setTinhToan(Tinh tinhToan) {
-        this.tinhToan = tinhToan;
-    }
-
-    public abstract float tinh();
-    
+public interface ISoSanh {
+    int soSanh(SinhVien o1, SinhVien o2);
 }
