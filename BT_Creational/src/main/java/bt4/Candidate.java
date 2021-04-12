@@ -3,12 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+package bt4;
 
 /**
  *
  * @author ASUS
  */
-public interface Tinh{
-
-    public float tinh(float a, float b);
+public enum Candidate {
+    DonaldTrump, JoeBiden;
 }

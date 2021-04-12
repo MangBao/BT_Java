@@ -6,9 +6,15 @@
 
 /**
  *
- * @author ASUS
+ * @author Asus
  */
-public interface Tinh{
+public class QuanLyHoaDon {
 
-    public float tinh(float a, float b);
+    public void themHoaDon() {
+
+    }
+
+    public void inDSHoaDon() {
+
+    }
 }

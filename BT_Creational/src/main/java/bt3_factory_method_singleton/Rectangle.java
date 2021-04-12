@@ -3,12 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+package bt3_factory_method_singleton;
 
 /**
  *
  * @author ASUS
  */
-public interface Tinh{
+public class Rectangle extends Shape {
 
-    public float tinh(float a, float b);
+    @Override
+    public void draw() {
+        System.out.println("Hinh chu nhat");
+    }
+
 }

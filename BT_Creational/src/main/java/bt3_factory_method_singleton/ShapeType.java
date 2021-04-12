@@ -3,12 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+package bt3_factory_method_singleton;
 
 /**
  *
  * @author ASUS
  */
-public interface Tinh{
-
-    public float tinh(float a, float b);
+public enum ShapeType {
+    Circle,Triagle,Rectangle;
 }

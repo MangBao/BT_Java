@@ -8,7 +8,14 @@
  *
  * @author ASUS
  */
-public interface Tinh{
+public class Tea extends CaffeineBeverage {  
+    @Override
+    void brew() {
+        System.out.println("Pha tra");
+    }
 
-    public float tinh(float a, float b);
+    @Override
+    void addCondiments() {
+        System.out.println("Them chanh");
+    }
 }
