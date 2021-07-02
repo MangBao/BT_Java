@@ -11,6 +11,18 @@ package bt3_factory_method_singleton;
  */
 public class Rectangle extends Shape {
 
+    public static Rectangle rectangleInstance;
+
+    protected Rectangle() {
+    }
+
+    public static Rectangle getInstance() {
+        if (rectangleInstance == null) {
+            rectangleInstance = new Rectangle();
+        }
+        return rectangleInstance;
+    }
+
     @Override
     public void draw() {
         System.out.println("Hinh chu nhat");

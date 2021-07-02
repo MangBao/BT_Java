@@ -12,17 +12,13 @@ package bt4;
 public class User {
 
     String name;
-    boolean check = false;
 
     public User(String name) {
         this.name = name;
     }
 
     public void vote(Candidate c) {
-        if (check) {
-            Election e = Election.createInstance();
-            e.vote(c);
-        }
-        check = true;
+        Election e = Election.createInstance();
+        e.vote(c, name);
     }
 }

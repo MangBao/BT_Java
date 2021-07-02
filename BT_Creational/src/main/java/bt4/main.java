@@ -18,7 +18,7 @@ public class main {
         
         u1.vote(Candidate.DonaldTrump);
         u2.vote(Candidate.DonaldTrump);
-        u2.vote(Candidate.JoeBiden);
+        u3.vote(Candidate.JoeBiden);
         e.printNum();
     }
 }

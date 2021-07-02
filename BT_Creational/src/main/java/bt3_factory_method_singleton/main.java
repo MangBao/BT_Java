@@ -17,6 +17,7 @@ public class main {
         Shape htron1 = shapeFactory.createShape(ShapeType.Circle);
         Shape htron2 = Circle.getInstance();
         Shape htron3 = Circle.getInstance();
+        htron1.draw();
         htron3.draw();
         htron2.draw();
         

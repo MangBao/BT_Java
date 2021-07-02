@@ -8,6 +8,6 @@
  *
  * @author HP
  */
-public interface ISoSanh {
+public interface ISoSanh{
     int soSanh(SinhVien o1, SinhVien o2);
 }
